@@ -1,6 +1,6 @@
 // 데이터 초기화
 const data = {
-    members: ["한지원", "이영민", "김민제", "박준성"], // 담당자 목록
+    members: ["박준성", "한지원", "이영민", "김민제"], // 담당자 목록
     roles: ["도시락 배달", "오전 셔틀", "오후 셔틀", "카운터 보기"], // 역할 목록
 };
 
@@ -34,4 +34,5 @@ document.addEventListener("DOMContentLoaded", updateRoles);
 
 // 1시간마다 역할 갱신
 setInterval(updateRoles, 3600000); // 3600000ms = 1시간
+
 
